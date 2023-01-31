@@ -1,0 +1,64 @@
+.App {
+  font-family: sans-serif;
+}
+
+td {
+  vertical-align: top;
+}
+
+.c {
+  width: 20vw;
+}
+
+.c > input,
+.c > textarea,
+.c > select,
+.c > button {
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  background: #343438;
+  border-radius: 5px;
+  width: 200px;
+  height: 150px;
+  justify-content: space-evenly;
+}
+
+.score {
+  font-size: 2em;
+  color: #929293;
+}
+
+.properties {
+  display: flex;
+  flex-direction: column;
+}
+
+.property-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.protected {
+  color: green;
+}
+
+.unprotected {
+  color: red;
+}
+
+.risky {
+  color: yellow;
+}
+
+.label {
+  color: #929293;
+}
